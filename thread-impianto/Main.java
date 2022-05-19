@@ -7,7 +7,7 @@ import java.util.logging.Logger;
  *
  * @author alfredo centinaro
  */
-public class Schedediretethread 
+public class Main 
 {
 
     public static void main(String[] args) 
