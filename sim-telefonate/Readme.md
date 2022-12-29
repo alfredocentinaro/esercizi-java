@@ -11,15 +11,10 @@ Prevedere costruttori, costruttore di copia e metodi di accesso e il seguente me
 Creare una classe SIM
 
 -numero
-
 -credito
-
 -tipo (privato o aziendale)
-
 -compagnia telefonica
-
 -elenco 10 chiamate fatte
-
 -elenco 10 chiamate ricevute
 
 
