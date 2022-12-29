@@ -10,3 +10,5 @@ Vediamo un esercizio java con diversi spunti di riflessione e proprietà del nos
 - versamento aggiunge il double in parametro al saldo dell'oggetto e aumenta il numero di conteggioMovimenti di 1
 - prelievo sottrae se possibile il double in parametro al saldo dell'oggetto e aumenta il numero di conteggioMovimenti di 1
 - stampaInfo è in ovverride stampando le informazioni delle rispettive classi figlio + padre
+
+Il codice è spiegato integralmente su https://www.alfredocentinaro.it/lezioni/java/classe-conto-corrente-con-gestione-banca-e-arraylist-ed-ereditarieta/
