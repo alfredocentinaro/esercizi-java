@@ -4,10 +4,10 @@
 ---
 ## Le specifiche
 Si vuole realizzare una semplice applicazione in JavaFX che  permetta di inserire peso, altezza e sesso per calcolare l'Indice di Massa Corporea (IMC). La formula per il calcolo è semplice IMC = peso / (altezza * altezza). Viusalizzare il risultato numerico del rapporto. Evidenziare attraverso l'uso di 4 immagini, lo status: 
-     * sottopeso 	<18,5
-     * normopeso 	18,5-24,9
-     * sovrappeso 	25-29,9
-     * obesità 	>30
+ + sottopeso 	<18,5
+ + normopeso 	18,5-24,9
+ + sovrappeso 	25-29,9
+ + obesità 	>30
 
 ## Cosa contiene il software
 
