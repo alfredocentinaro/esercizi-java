@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iis.tris.Controller">
+   <children>
+      <MenuBar prefHeight="27.0" prefWidth="600.0" VBox.vgrow="ALWAYS">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+                  <MenuItem mnemonicParsing="false" onAction="#nuovapartita" text="Nuova partita" />
+              <MenuItem mnemonicParsing="false" onAction="#chiudi" text="Chiudi" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Modifica">
+            <items>
+              <MenuItem fx:id="btnAnnulla" mnemonicParsing="false" onAction="#annulla" text="Annulla ultima mossa" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Aiuto">
+            <items>
+              <MenuItem fx:id="btnInfo" mnemonicParsing="false" onAction="#info" text="Informazioni su Tris" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Pane prefHeight="441.0" prefWidth="600.0">
+         <children>
+            <Separator layoutX="45.0" layoutY="120.0" prefHeight="1.0" prefWidth="500.0" />
+            <Separator layoutX="45.0" layoutY="220.0" prefHeight="1.0" prefWidth="500.0" />
+            <Separator layoutX="209.0" layoutY="20.0" orientation="VERTICAL" prefHeight="300.0" />
+            <Separator layoutX="390.0" layoutY="20.0" orientation="VERTICAL" prefHeight="300.0" />
+            <Label fx:id="casella0" alignment="CENTER" layoutX="70.0" layoutY="20.0" onMouseClicked="#click0" prefHeight="100.0" prefWidth="100.0" text="cliccami" textAlignment="CENTER" />
+            <Label fx:id="casella3" alignment="CENTER" layoutX="70.0" layoutY="120.0" onMouseClicked="#click3" prefHeight="100.0" prefWidth="100.0" text="cliccami" textAlignment="CENTER" />
+            <Label fx:id="casella6" alignment="CENTER" layoutX="70.0" layoutY="220.0" onMouseClicked="#click6" prefHeight="100.0" prefWidth="100.0" text="cliccami" textAlignment="CENTER" />
+            <Label fx:id="casella1" alignment="CENTER" layoutX="252.0" layoutY="20.0" onMouseClicked="#click1" prefHeight="100.0" prefWidth="100.0" text="cliccami" textAlignment="CENTER" />
+            <Label fx:id="casella2" alignment="CENTER" layoutX="420.0" layoutY="20.0" onMouseClicked="#click2" prefHeight="100.0" prefWidth="100.0" text="cliccami" textAlignment="CENTER" />
+            <Label fx:id="casella4" alignment="CENTER" layoutX="252.0" layoutY="120.0" onMouseClicked="#click4" prefHeight="100.0" prefWidth="100.0" text="cliccami" textAlignment="CENTER" />
+            <Label fx:id="casella5" alignment="CENTER" layoutX="420.0" layoutY="120.0" onMouseClicked="#click5" prefHeight="100.0" prefWidth="100.0" text="cliccami" textAlignment="CENTER" />
+            <Label fx:id="casella7" alignment="CENTER" layoutX="252.0" layoutY="220.0" onMouseClicked="#click7" prefHeight="100.0" prefWidth="100.0" text="cliccami" textAlignment="CENTER" />
+            <Label fx:id="casella8" alignment="CENTER" layoutX="423.0" layoutY="220.0" onMouseClicked="#click8" prefHeight="100.0" prefWidth="100.0" text="cliccami" textAlignment="CENTER" />
+         </children>
+      </Pane>
+      <Label fx:id="lblMessaggio" alignment="CENTER" minHeight="40.0" prefWidth="600.0" style="-fx-background-color: #fcfcfcfc;" text="Benvenuto! Comincia il giocatore O" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</VBox>
