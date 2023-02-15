@@ -116,9 +116,12 @@ public class Controller {
     @FXML
     void click0(MouseEvent event)
     {
+        if (this.tavolo.get(0).getScelta() != Scelta.Vuota)
+            return;
 
         if (this.tavolo.getTurno() == Turno.Giocatore_O)
         {
+
             casella0.setText("O");
             casella0.setStyle("-fx-text-fill:RED; -fx-font-size: 60;");
             this.tavolo.get(0).setScelta(Scelta.O);
@@ -146,6 +149,9 @@ public class Controller {
     @FXML
     void click1(MouseEvent event)
     {
+        if (this.tavolo.get(1).getScelta() != Scelta.Vuota)
+            return;
+
         if (this.tavolo.getTurno() == Turno.Giocatore_O)
         {
             casella1.setText("O");
@@ -174,6 +180,9 @@ public class Controller {
     @FXML
     void click2(MouseEvent event)
     {
+        if (this.tavolo.get(2).getScelta() != Scelta.Vuota)
+            return;
+
         if (this.tavolo.getTurno() == Turno.Giocatore_O)
         {
             casella2.setText("O");
@@ -202,6 +211,9 @@ public class Controller {
     @FXML
     void click3(MouseEvent event)
     {
+        if (this.tavolo.get(3).getScelta() != Scelta.Vuota)
+            return;
+
         if (this.tavolo.getTurno() == Turno.Giocatore_O)
         {
             casella3.setText("O");
@@ -230,6 +242,9 @@ public class Controller {
     @FXML
     void click4(MouseEvent event)
     {
+        if (this.tavolo.get(4).getScelta() != Scelta.Vuota)
+            return;
+
         if (this.tavolo.getTurno() == Turno.Giocatore_O)
         {
             casella4.setText("O");
@@ -258,6 +273,9 @@ public class Controller {
     @FXML
     void click5(MouseEvent event)
     {
+        if (this.tavolo.get(5).getScelta() != Scelta.Vuota)
+            return;
+
         if (this.tavolo.getTurno() == Turno.Giocatore_O)
         {
             casella5.setText("O");
@@ -284,7 +302,11 @@ public class Controller {
     }
 
     @FXML
-    void click6(MouseEvent event) {
+    void click6(MouseEvent event)
+    {
+        if (this.tavolo.get(6).getScelta() != Scelta.Vuota)
+            return;
+
         if (this.tavolo.getTurno() == Turno.Giocatore_O)
         {
             casella6.setText("O");
@@ -311,7 +333,11 @@ public class Controller {
     }
 
     @FXML
-    void click7(MouseEvent event) {
+    void click7(MouseEvent event)
+    {
+        if (this.tavolo.get(7).getScelta() != Scelta.Vuota)
+            return;
+
         if (this.tavolo.getTurno() == Turno.Giocatore_O)
         {
             casella7.setText("O");
@@ -338,7 +364,11 @@ public class Controller {
     }
 
     @FXML
-    void click8(MouseEvent event) {
+    void click8(MouseEvent event)
+    {
+        if (this.tavolo.get(8).getScelta() != Scelta.Vuota)
+            return;
+
         if (this.tavolo.getTurno() == Turno.Giocatore_O)
         {
             casella8.setText("O");
