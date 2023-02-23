@@ -1,3 +1,4 @@
+# OOP Java: classe calciatore / portiere con classe gestione Squadra
 Creare una gerarchia di classi come nel diagramma UML in foto per Calciatore e Portiere. Prevedere gli attributi, metodi di accesso set/get (non indicati per brevità), costruttori e metodi accessori come da schema. Dare particolare attenzione a overloading e override di costruttori e metodi. Creare quindi una classe main di test che funge da black box ed implementare le seguenti richieste;
 
 
