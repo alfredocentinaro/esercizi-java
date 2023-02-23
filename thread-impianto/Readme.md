@@ -1,3 +1,4 @@
+# Gestione thrad: simulazione impianto di produzione schede
 Un esercizio completo e un po’ complesso. Vogliamo simulare un impianto di produzione di schede con tre macchinari.
 
 Ogni macchinario è identificato da un codice alfanumerico e produce, in contemporanea con gli altri macchinari, delle schede che sono idealmente rappresentate da un semplice numero seriale da apporvi, costruito dal codicemacchinario-seriale.
