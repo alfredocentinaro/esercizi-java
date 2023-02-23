@@ -1,4 +1,4 @@
-<h1>Classe conto corrente con gestione banca e arraylist ed ereditarietà</h1>
+<h1>Classe conto corrente con gestione banca, arraylist ed ereditarietà</h1>
 
 Vediamo un esercizio java con diversi spunti di riflessione e proprietà del nostro linguaggio. Implementiamo una classe che descrive una banca in cui è possibile aprire più conti corrente. La banca archivia questi conti con un comodo ArraList. Il conto corrente è invece una realtà duplice: c'è una classe padre e due figli che la specilizzano ereditando, uno sarà il conto corrente per le persone fisiche private, uno giuridico per le aziende. Lo schema UML di quello che vogliamo catalogare è riportato in basso. Anche se non specificati per brevità, sono da implementare i metodi di accesso, costruttori e costruttori di copia. Dei metodi da costruire si sappia che: 
 
