@@ -1,4 +1,4 @@
-#OOP Java: classe telefonata
+# OOP Java: classe telefonata
 Creare una classe Telefonata con i seguenti attributi
 
 * numero
