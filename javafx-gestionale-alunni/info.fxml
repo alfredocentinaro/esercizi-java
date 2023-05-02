@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox minHeight="200.0" minWidth="500.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="iis.alessandrini.tabellefx.ControllerInfo">
+   <children>
+      <Pane minWidth="100.0" prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS">
+         <children>
+            <ImageView fx:id="img" fitHeight="150.0" fitWidth="159.0" layoutX="32.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </Pane>
+      <VBox minWidth="300.0" prefHeight="200.0">
+         <children>
+            <Label prefHeight="43.0" prefWidth="177.0" text="AlunniGest">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label prefHeight="18.0" prefWidth="206.0" text="Realizzato da Alfredo Centinaro" />
+            <Label text="Versione 0.1" />
+         </children>
+         <padding>
+            <Insets left="10.0" top="10.0" />
+         </padding>
+      </VBox>
+   </children>
+</HBox>
