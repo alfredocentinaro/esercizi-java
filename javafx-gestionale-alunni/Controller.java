@@ -174,10 +174,7 @@ public class Controller
             //tablePrincipale.refresh();
 
         } );
-
     }
-
-
 
 
     @FXML
@@ -238,15 +235,13 @@ public class Controller
             }
         });
 
-
-
-
     }
 
     public void setModel(Model m)
     {
         this.model = m;
     }
+    
     public void initData() throws IOException, ParseException
     {
         //Carico i dati dalla sorgente
